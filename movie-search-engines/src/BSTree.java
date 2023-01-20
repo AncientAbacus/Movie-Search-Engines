@@ -1,8 +1,3 @@
-/*
- * Name: Gino Angelici
- * PID:  A16779788
- */
-
 import java.util.*;
 
 /**
@@ -406,17 +401,5 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
      */
     public Iterator<T> iterator() {
         return new BSTree_Iterator();
-    }
-
-    /* * * * * Extra Credit Methods * * * * */
-
-    public ArrayList<T> intersection(Iterator<T> iter1, Iterator<T> iter2) {
-        /* TODO */
-        return null;
-    }
-
-    public T levelMax(int level) {
-        /* TODO */
-        return null;
     }
 }
