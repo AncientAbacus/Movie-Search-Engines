@@ -1,8 +1,3 @@
-/*
- * Name: Gino Angelici
- * PID:  A16779788
- */
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
